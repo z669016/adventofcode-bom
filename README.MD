@@ -1,0 +1,13 @@
+# Advent Of Code Bill of Materials
+Initial version created in 2022 as prep for this year's [AoC](https://adventofcode.com/). Next to the fact
+that I'd like to refresh my problem-solving skills, I'd also like to learn a bit more on Maven. Also, because
+GitHub's [dependabot](https://github.com/dependabot) regulars comes with warning on library upgrades I should
+do. Hopefully this helps a bit addressing that issue as well. So, yes, I'm trying to kill two birds in one 
+stone.
+
+I took the dependency list from my AoC 2021 project and turned that into a BOM file. 
+
+## Version 1.1
+Added ```com.github.dpaukov.combinatoricslib3``` which is a great library to generate combinations or 
+permutations from a list of elements. I introduced this library for AoC 2016, and apparently forgot about it, as I 
+also implemented a Permutator (by copying some code from the Internet, sorry I cannot remember the source);
