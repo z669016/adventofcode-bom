@@ -11,3 +11,6 @@ I took the dependency list from my AoC 2021 project and turned that into a BOM f
 Added ```com.github.dpaukov.combinatoricslib3``` which is a great library to generate combinations or 
 permutations from a list of elements. I introduced this library for AoC 2016, and apparently forgot about it, as I 
 also implemented a Permutator (by copying some code from the Internet, sorry I cannot remember the source);
+
+## Version 1.1.1
+Updated the AOC library to 1.4.18 (Josephus problem for AoC 2016 day 19)
