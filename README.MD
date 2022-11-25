@@ -14,3 +14,8 @@ also implemented a Permutator (by copying some code from the Internet, sorry I c
 
 ## Version 1.1.1
 Updated the AOC library to 1.4.18 (Josephus problem for AoC 2016 day 19)
+
+## Version 1.2.0
+Added com.google.guava to add missing streaming methods like ```Streams.zip``` to enable more functional
+programming based solutions for the puzzles.
+Upgraded several libraries to the latest versions, incl jackson to solve a security vulnerability.
