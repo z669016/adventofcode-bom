@@ -25,3 +25,6 @@ Bumped AoC library (added transform to Point and Point3D)
 
 ## Version 1.2.2
 Bumped AoC library (added Size class from AoC 2018)
+
+## Version 1.2.3
+Bumped AoC library (added Factors.gcm() and Factors.lcm())
