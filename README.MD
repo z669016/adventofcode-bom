@@ -28,3 +28,6 @@ Bumped AoC library (added Size class from AoC 2018)
 
 ## Version 1.2.3
 Bumped AoC library (added Factors.gcm() and Factors.lcm())
+
+## Version 1.2.4
+Bumped algorithms library (added TSP.longestPath)
