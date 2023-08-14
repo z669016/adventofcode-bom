@@ -31,3 +31,9 @@ Bumped AoC library (added Factors.gcm() and Factors.lcm())
 
 ## Version 1.2.4
 Bumped algorithms library (added TSP.longestPath)
+
+## Version 1.3.0
+Bumped aoc library to 1.5.0 with some classes removed (already available elsewhere)
+
+## Version 1.3.1
+Bumped aoc library to 1.5.1
