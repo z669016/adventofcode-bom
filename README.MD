@@ -37,3 +37,7 @@ Bumped aoc library to 1.5.0 with some classes removed (already available elsewhe
 
 ## Version 1.3.1
 Bumped aoc library to 1.5.1
+
+## Version 1.3.1
+Bumped aoc library to 1.5.2
+
