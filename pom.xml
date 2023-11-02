@@ -6,7 +6,7 @@
 
     <groupId>com.putoet</groupId>
     <artifactId>adventofcode-bom</artifactId>
-    <version>1.3.2</version>
+    <version>1.4.0</version>
     <packaging>pom</packaging>
 
     <name>adventofcode-bom</name>
@@ -14,60 +14,40 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <lombok.version>1.18.28</lombok.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <lombok.version>1.18.30</lombok.version>
         <junit-jupiter-engine.version>5.10.0</junit-jupiter-engine.version>
-        <mockito-core.version>5.4.0</mockito-core.version>
-        <jackson-databind.version>2.15.2</jackson-databind.version>
+        <mockito-core.version>5.6.0</mockito-core.version>
+        <jackson-databind.version>2.15.3</jackson-databind.version>
         <commons-math3.version>3.6.1</commons-math3.version>
-        <commons-lang3.version>3.12.0</commons-lang3.version>
-        <javatuples.version>1.2</javatuples.version>
+        <commons-lang3.version>3.13.0</commons-lang3.version>
         <algorithms.version>1.1.5</algorithms.version>
-        <aoc.version>1.5.2</aoc.version>
+        <aoc.version>1.5.5</aoc.version>
         <jcolor.version>5.5.1</jcolor.version>
         <combinatoricslib3.version>3.3.3</combinatoricslib3.version>
-        <guava.version>32.1.2-jre</guava.version>
+        <guava.version>32.1.3-jre</guava.version>
+        <jgrapht-core.version>5</jgrapht-core.version>
+        <jheaps.version>0.14</jheaps.version>
     </properties>
 
     <dependencies>
         <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>23.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit-jupiter-engine.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>${mockito-core.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson-databind.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.putoet</groupId>
-            <artifactId>aoc</artifactId>
-            <version>${aoc.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.putoet</groupId>
-            <artifactId>algorithms</artifactId>
-            <version>${algorithms.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.javatuples</groupId>
-            <artifactId>javatuples</artifactId>
-            <version>${javatuples.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -93,6 +73,40 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jgrapht</groupId>
+            <artifactId>jgrapht-core</artifactId>
+            <version>1.${jgrapht-core.version}.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jheaps</groupId>
+            <artifactId>jheaps</artifactId>
+            <version>${jheaps.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.putoet</groupId>
+            <artifactId>aoc</artifactId>
+            <version>${aoc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.putoet</groupId>
+            <artifactId>algorithms</artifactId>
+            <version>${algorithms.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit-jupiter-engine.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito-core.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>
