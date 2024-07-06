@@ -6,7 +6,7 @@
 
     <groupId>com.putoet</groupId>
     <artifactId>adventofcode-bom</artifactId>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
     <packaging>pom</packaging>
 
     <name>adventofcode-bom</name>
@@ -16,18 +16,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <lombok.version>1.18.30</lombok.version>
-        <junit-jupiter-engine.version>5.10.0</junit-jupiter-engine.version>
-        <mockito-core.version>5.6.0</mockito-core.version>
-        <jackson-databind.version>2.15.3</jackson-databind.version>
+        <lombok.version>1.18.34</lombok.version>
+        <junit-jupiter-engine.version>5.10.3</junit-jupiter-engine.version>
+        <mockito-core.version>5.12.0</mockito-core.version>
+        <jackson-databind.version>2.17.2</jackson-databind.version>
         <commons-math3.version>3.6.1</commons-math3.version>
-        <commons-lang3.version>3.13.0</commons-lang3.version>
+        <commons-lang3.version>3.14.0</commons-lang3.version>
         <algorithms.version>1.1.5</algorithms.version>
-        <aoc.version>1.6.0</aoc.version>
+        <aoc.version>1.7.0</aoc.version>
         <jcolor.version>5.5.1</jcolor.version>
-        <combinatoricslib3.version>3.3.3</combinatoricslib3.version>
-        <guava.version>32.1.3-jre</guava.version>
-        <jgrapht-core.version>5</jgrapht-core.version>
+        <combinatoricslib3.version>3.4.0</combinatoricslib3.version>
+        <guava.version>33.2.1-jre</guava.version>
+        <jgrapht-core.version>1.5.2</jgrapht-core.version>
         <jheaps.version>0.14</jheaps.version>
     </properties>
 
@@ -77,7 +77,7 @@
         <dependency>
             <groupId>org.jgrapht</groupId>
             <artifactId>jgrapht-core</artifactId>
-            <version>1.${jgrapht-core.version}.2</version>
+            <version>${jgrapht-core.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jheaps</groupId>

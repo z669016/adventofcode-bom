@@ -41,3 +41,6 @@ Bumped aoc library to 1.5.1
 ## Version 1.3.1
 Bumped aoc library to 1.5.2
 
+## Version 1.5.0
+Bumped many libraries ;-)
+
