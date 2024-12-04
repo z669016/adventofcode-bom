@@ -16,14 +16,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <lombok.version>1.18.34</lombok.version>
+        <lombok.version>1.18.36</lombok.version>
         <junit-jupiter-engine.version>5.11.3</junit-jupiter-engine.version>
         <mockito-core.version>5.14.2</mockito-core.version>
-        <jackson-databind.version>2.18.1</jackson-databind.version>
+        <jackson-databind.version>2.18.2</jackson-databind.version>
         <commons-math3.version>3.6.1</commons-math3.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <algorithms.version>1.3</algorithms.version>
-        <aoc.version>1.7.0</aoc.version>
+        <aoc.version>1.7.1</aoc.version>
         <jcolor.version>5.5.1</jcolor.version>
         <combinatoricslib3.version>3.4.0</combinatoricslib3.version>
         <guava.version>33.3.1-jre</guava.version>
