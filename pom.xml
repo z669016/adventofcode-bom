@@ -6,7 +6,7 @@
 
     <groupId>com.putoet</groupId>
     <artifactId>adventofcode-bom</artifactId>
-    <version>1.5.2</version>
+    <version>1.5.3</version>
     <packaging>pom</packaging>
 
     <name>adventofcode-bom</name>
@@ -23,7 +23,7 @@
         <commons-math3.version>3.6.1</commons-math3.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <algorithms.version>1.3</algorithms.version>
-        <aoc.version>1.7.1</aoc.version>
+        <aoc.version>1.7.2</aoc.version>
         <jcolor.version>5.5.1</jcolor.version>
         <combinatoricslib3.version>3.4.0</combinatoricslib3.version>
         <guava.version>33.3.1-jre</guava.version>
